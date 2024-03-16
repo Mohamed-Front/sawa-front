@@ -1,0 +1,11 @@
+@use 'vuetify/settings' with (
+  $utilities: false,
+  $color-pack: false,
+  $reset: false,
+);
+.p-dropdown-trigger svg{
+  color: red;
+}
+#navbar{
+  margin:1000px !important
+}
